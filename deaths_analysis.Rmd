@@ -13,7 +13,7 @@ I noticed [an article]() in the Austin-American Statesman with the headline: "Au
 
 What would happen if people really were delinquent in payment and their power was eventually cut off? Imagine having no power at this moment in the winter. No lights, heat, hot water, or a way to cook.
 
-I did some research— several states have laws that prevent people from living without heat during winter months. Other states make exceptions on cutting off power when the temperature goes below or above a certain threshold. Some states have both exemptions based on dates and temperatures. Others have neither. Here's [the list}(https://liheapch.acf.hhs.gov/Disconnect/disconnect.htm) which I've cleaned up and used below.
+I did some research— several states have laws that prevent people from living without heat during winter months. Other states make exceptions on cutting off power when the temperature goes below or above a certain threshold. Some states have both exemptions based on dates and temperatures. Others have neither. Here's [the list](https://liheapch.acf.hhs.gov/Disconnect/disconnect.htm) which I've cleaned up and used below.
 
 ```{r double_map, fig.width=10, fig.height=5, warning=F, message=F}
 library(albersusa)
