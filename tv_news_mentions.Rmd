@@ -1,0 +1,216 @@
+---
+title: "TV news mentions of White House list of attacks"
+author: "Andrew Ba Tran"
+date: "2/11/2017"
+output: html_document
+---
+
+White House officials released a list of 78 attacks they claimed the media did not cover following President Donald Trump's accusations at MacDill Air Force Base in Florida on Monday.
+
+"It's gotten to a point where it's not even reported, and in many cases the very, very dishonest press doesn't even want to report it," said President Trump to the troops gathered there.
+
+An analysis of news channel transcripts collected by the Internet Archive Television News Archive shows that the international attacks were indeed mentioned, with the exception of a couple non-fatal incidents in Copenhagen, Denmark.
+
+
+```{r setup,  warning=F, message=F}
+library(newsflash)
+library(ggalt) # github version
+library(hrbrmisc) # github only
+library(tidyverse)
+library(ggplot2)
+library(scales)
+library(lubridate)
+library(stringr)
+
+
+wh_list <- read.csv("72attacks.csv", stringsAsFactors=F)
+wh_list$keyword <- wh_list$Location
+wh_list$keyword <- gsub(",.*", "", wh_list$keyword)
+wh_list$keyword <- gsub("\\(.*", "", wh_list$keyword)
+wh_list$keyword <- str_to_title(wh_list$keyword)
+wh_list$keyword2 <- gsub(".*,", "", wh_list$Location)
+wh_list$keyword2 <- str_to_title(wh_list$keyword2)
+wh_list$month <- gsub(", .*", "", wh_list$Date)
+wh_list$year <- gsub(".*,", "", wh_list$Date)
+wh_list$start <- paste0(wh_list$month, " 1, ", wh_list$year)
+wh_list$start <- mdy(wh_list$start)
+wh_list$end <- wh_list$start+30
+
+wh_list$ID<-seq.int(nrow(wh_list))
+
+stations <- list_networks(widget=FALSE)
+colnames(stations) <- c("keyword", "station", "dates")
+stations$dates <- NULL
+```
+
+## Each incident
+
+```{r each, fig.height=5, fig.width=8, warning=F, message=F}
+
+for (i in 1:nrow(wh_list)) {
+starts <- wh_list$start[i]
+ends <- wh_list$end[i]
+
+queries <- map2(starts, ends, function(x, y) {
+  query_tv(wh_list$keyword[i], "attack", timespan="custom", start_date=x, end_date=y)
+})
+
+queries2 <- map2(starts, ends, function(x, y) {
+  query_tv(wh_list$keyword2[i], "attack", timespan="custom", start_date=x, end_date=y)
+})
+
+if (!is.null(queries[[1]])) {
+queries_timeline <- map_df(queries, "timeline")
+
+
+queries_df <- queries_timeline %>%
+  group_by(station) %>%
+  summarize(count=sum(value))
+
+stat_m<- left_join(stations, queries_df)
+stat_m <- subset(stat_m, !is.na(count))
+stat_m$ID <- i
+stat_m$total <- sum(stat_m$count)
+
+if (i == 1) {
+  stations_m <- stat_m
+} else {
+  stations_m <- rbind(stations_m, stat_m)
+}
+
+count(queries_timeline, station, wt=value, sort=TRUE) %>%
+  mutate(pct=n/sum(n), pct_lab=sprintf("%s (%s)", scales::comma(n), scales::percent(pct)),
+         station=factor(station, levels=rev(station))) -> timeline_df
+
+gg <- ggplot(timeline_df, aes(y=station, x=pct))
+gg <- gg + geom_lollipop(point.colour="steelblue", point.size=3, horizontal=TRUE)
+gg <- gg + geom_text(label=timeline_df$pct_lab, hjust=-.3)
+gg <- gg + scale_x_continuous(labels=percent,
+                              breaks=seq(0, 1, by=0.2), limits=c(0, 1))
+gg <- gg + labs(x=NULL, y=NULL,
+                title=paste0("Percent of all sentences on TV channels mentioning ", wh_list$keyword[i]),
+                subtitle=paste0("Search parameters: Primary [", wh_list$keyword[i], "]; Context: [attack]; n=", sum(stat_m$total)),
+                caption="Source: Internet Archive Television News Archive via #rstats newsflash package")
+gg <- gg + theme_minimal(base_family="Arial Narrow")
+gg <- gg + theme(panel.grid.major.y=element_blank())
+gg <- gg + theme(panel.grid.minor=element_blank())
+gg <- gg + theme(axis.line.y=element_line(color="#2b2b2b", size=0.15))
+gg <- gg + theme(axis.text.y=element_text(margin=margin(r=-5, l=0)))
+gg <- gg + theme(plot.margin=unit(rep(30, 4), "pt"))
+gg <- gg + theme(plot.title=element_text(face="bold"))
+gg <- gg + theme(plot.subtitle=element_text(margin=margin(b=10)))
+gg <- gg + theme(plot.caption=element_text(size=8, margin=margin(t=10)))
+print(gg)
+
+} else if ((is.null(queries[[1]]) & !is.null(queries2[[1]]))) {
+  queries_timeline <- map_df(queries2, "timeline")
+  
+  
+  queries_df <- queries_timeline %>%
+    group_by(station) %>%
+    summarize(count=sum(value))
+  
+  stat_m<- left_join(stations, queries_df)
+  stat_m <- subset(stat_m, !is.na(count))
+  stat_m$ID <- i
+  stat_m$total <- sum(stat_m$count)
+  
+  if (i == 1) {
+    stations_m <- stat_m
+  } else {
+    stations_m <- rbind(stations_m, stat_m)
+  }
+  
+  count(queries_timeline, station, wt=value, sort=TRUE) %>%
+    mutate(pct=n/sum(n), pct_lab=sprintf("%s (%s)", scales::comma(n), scales::percent(pct)),
+           station=factor(station, levels=rev(station))) -> timeline_df
+  
+  gg <- ggplot(timeline_df, aes(y=station, x=pct))
+  gg <- gg + geom_lollipop(point.colour="steelblue", point.size=3, horizontal=TRUE)
+  gg <- gg + geom_text(label=timeline_df$pct_lab, hjust=-.3)
+  gg <- gg + scale_x_continuous(labels=percent,
+                                breaks=seq(0, 1, by=0.2), limits=c(0, 1))
+  gg <- gg + labs(x=NULL, y=NULL,
+                  title=paste0("Percent of all sentences on TV channels mentioning ", wh_list$keyword[i]),
+                  subtitle=paste0("Search parameters: Primary [", wh_list$keyword[i], "]; Context: [attack]; n=", sum(stat_m$total)),
+                  caption="Source: Internet Archive Television News Archive via #rstats newsflash package")
+  gg <- gg + theme_minimal(base_family="Arial Narrow")
+  gg <- gg + theme(panel.grid.major.y=element_blank())
+  gg <- gg + theme(panel.grid.minor=element_blank())
+  gg <- gg + theme(axis.line.y=element_line(color="#2b2b2b", size=0.15))
+  gg <- gg + theme(axis.text.y=element_text(margin=margin(r=-5, l=0)))
+  gg <- gg + theme(plot.margin=unit(rep(30, 4), "pt"))
+  gg <- gg + theme(plot.title=element_text(face="bold"))
+  gg <- gg + theme(plot.subtitle=element_text(margin=margin(b=10)))
+  gg <- gg + theme(plot.caption=element_text(size=8, margin=margin(t=10)))
+  print(gg)
+  
+} else {
+stat_temp <- data.frame(keyword="", station="", count=0, ID=i, total=0)
+stations_m <- rbind(stations_m, stat_temp)
+}
+}
+
+```
+
+## Total incidents
+
+```{r each_all, fig.height=12, fig.width=10, warning=F, message=F}
+
+wh_list_narrow <- select(wh_list, Location, Date, ID)
+wh_list_narrow <- left_join(stations_m, wh_list_narrow, by="ID")
+wh_list_narrow$loc_id <- paste0(wh_list_narrow$Location, " (", wh_list_narrow$Date, ")")
+wh_list_short <- wh_list_narrow %>%
+  group_by(loc_id) %>%
+  filter(row_number()==1)
+wh_list_short$keyword <- NULL
+wh_list_short$station <- NULL
+wh_list_short$count <- NULL
+
+
+write.csv(wh_list_narrow, "wh_list_narrow.csv")
+
+gg <- ggplot(data=wh_list_narrow, aes(x=reorder(loc_id, -ID), y=count))
+gg <- gg + geom_bar(stat="identity", aes(fill=station))
+gg <- gg + geom_text(data=wh_list_short, aes(y=total, label=total), size=3, hjust=-.3)
+gg <- gg + coord_flip()
+gg <- gg + scale_y_continuous(labels=comma, limits=c(0, 7000))
+gg <- gg + labs(x=NULL, y=NULL,
+                title="Mentions of international attacks on TV news",
+                subtitle="Search parameters: Primary [Location]; Context: [attack]",
+                caption="Source: Internet Archive Television News Archive via #rstats newsflash package")
+gg <- gg + theme_minimal(base_family="Arial Narrow")
+gg <- gg + theme(panel.grid.major.y=element_blank())
+gg <- gg + theme(panel.grid.minor=element_blank())
+gg <- gg + theme(axis.line.y=element_line(color="#2b2b2b", size=0.15))
+gg <- gg + theme(axis.text.y=element_text(margin=margin(r=-5, l=0)))
+gg <- gg + theme(plot.margin=unit(rep(30, 4), "pt"))
+gg <- gg + theme(plot.title=element_text(face="bold"))
+gg <- gg + theme(plot.subtitle=element_text(margin=margin(b=10)))
+gg <- gg + theme(plot.caption=element_text(size=8, margin=margin(t=10)))
+gg
+
+```
+
+```{r fox, fig.height=12, fig.width=8, warning=F, message=F}
+wh_list_narrow2 <- as.data.frame(wh_list_narrow)
+gg <- ggplot(data=subset(wh_list_narrow, station=="FOX News"), aes(x=reorder(loc_id, -ID), y=count))
+gg <- gg + geom_bar(stat="identity", aes(fill=station))
+gg <- gg + geom_text(data=subset(wh_list_narrow, station=="FOX News"), aes(y=count, label=count), size=3, hjust=-.3)
+gg <- gg + coord_flip()
+gg <- gg + scale_y_continuous(labels=comma, limits=c(0, 7000))
+gg <- gg + labs(x=NULL, y=NULL,
+                title="Mentions of international attacks on FOX News",
+                subtitle="Search parameters: Primary [Location]; Context: [attack]",
+                caption="Source: Internet Archive Television News Archive via #rstats newsflash package")
+gg <- gg + theme_minimal(base_family="Arial Narrow")
+gg <- gg + theme(panel.grid.major.y=element_blank())
+gg <- gg + theme(panel.grid.minor=element_blank())
+gg <- gg + theme(axis.line.y=element_line(color="#2b2b2b", size=0.15))
+gg <- gg + theme(axis.text.y=element_text(margin=margin(r=-5, l=0)))
+gg <- gg + theme(plot.margin=unit(rep(30, 4), "pt"))
+gg <- gg + theme(plot.title=element_text(face="bold"))
+gg <- gg + theme(plot.subtitle=element_text(margin=margin(b=10)))
+gg <- gg + theme(plot.caption=element_text(size=8, margin=margin(t=10)))
+gg
+```

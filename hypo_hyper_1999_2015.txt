@@ -1,0 +1,97 @@
+"Notes"	"State"	"State Code"	"Multiple Cause of death"	"Multiple Cause of death Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	121	79153531	0.2
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	204	79153531	0.3
+	"Alaska"	"02"	"Exposure to excessive natural cold (hypothermia)"	"X31"	316	11619054	2.7
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	875	102260320	0.9
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	496	102260320	0.5
+	"Arkansas"	"05"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	163	48127139	0.3
+	"Arkansas"	"05"	"Exposure to excessive natural cold (hypothermia)"	"X31"	151	48127139	0.3
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	730	618482047	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	751	618482047	0.1
+	"Colorado"	"08"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	45	81979602	0.1
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	460	81979602	0.6
+	"Connecticut"	"09"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	15	59851848	Unreliable
+	"Connecticut"	"09"	"Exposure to excessive natural cold (hypothermia)"	"X31"	222	59851848	0.4
+	"Delaware"	"10"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	17	14690493	Unreliable
+	"Delaware"	"10"	"Exposure to excessive natural cold (hypothermia)"	"X31"	43	14690493	0.3
+	"District of Columbia"	"11"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	15	10140487	Unreliable
+	"District of Columbia"	"11"	"Exposure to excessive natural cold (hypothermia)"	"X31"	60	10140487	0.6
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	277	307658206	0.1
+	"Florida"	"12"	"Exposure to excessive natural cold (hypothermia)"	"X31"	187	307658206	0.1
+	"Georgia"	"13"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	164	156794347	0.1
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	327	156794347	0.2
+	"Hawaii"	"15"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	18	22391828	Unreliable
+	"Idaho"	"16"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	26	25125742	0.1
+	"Idaho"	"16"	"Exposure to excessive natural cold (hypothermia)"	"X31"	187	25125742	0.7
+	"Illinois"	"17"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	271	215629487	0.1
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	716	215629487	0.3
+	"Indiana"	"18"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	97	108039336	0.1
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	436	108039336	0.4
+	"Iowa"	"19"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	46	51106028	0.1
+	"Iowa"	"19"	"Exposure to excessive natural cold (hypothermia)"	"X31"	240	51106028	0.5
+	"Kansas"	"20"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	121	47492505	0.3
+	"Kansas"	"20"	"Exposure to excessive natural cold (hypothermia)"	"X31"	124	47492505	0.3
+	"Kentucky"	"21"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	99	72069687	0.1
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	336	72069687	0.5
+	"Louisiana"	"22"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	170	76816288	0.2
+	"Louisiana"	"22"	"Exposure to excessive natural cold (hypothermia)"	"X31"	133	76816288	0.2
+	"Maine"	"23"	"Exposure to excessive natural cold (hypothermia)"	"X31"	154	22346589	0.7
+	"Maryland"	"24"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	133	96095812	0.1
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	376	96095812	0.4
+	"Massachusetts"	"25"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	30	110561604	0.0
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	284	110561604	0.3
+	"Michigan"	"26"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	80	169247101	0.0
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	819	169247101	0.5
+	"Minnesota"	"27"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	60	88349625	0.1
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	506	88349625	0.6
+	"Mississippi"	"28"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	141	49696268	0.3
+	"Mississippi"	"28"	"Exposure to excessive natural cold (hypothermia)"	"X31"	147	49696268	0.3
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	319	99548925	0.3
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	390	99548925	0.4
+	"Montana"	"30"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	18	16350314	Unreliable
+	"Montana"	"30"	"Exposure to excessive natural cold (hypothermia)"	"X31"	243	16350314	1.5
+	"Nebraska"	"31"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	35	30449575	0.1
+	"Nebraska"	"31"	"Exposure to excessive natural cold (hypothermia)"	"X31"	117	30449575	0.4
+	"Nevada"	"32"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	234	42397289	0.6
+	"Nevada"	"32"	"Exposure to excessive natural cold (hypothermia)"	"X31"	77	42397289	0.2
+	"New Hampshire"	"33"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	11	22040058	Unreliable
+	"New Hampshire"	"33"	"Exposure to excessive natural cold (hypothermia)"	"X31"	96	22040058	0.4
+	"New Jersey"	"34"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	110	147786615	0.1
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	375	147786615	0.3
+	"New Mexico"	"35"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	54	33510363	0.2
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	466	33510363	1.4
+	"New York"	"36"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	278	327923109	0.1
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	786	327923109	0.2
+	"North Carolina"	"37"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	150	153789162	0.1
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	366	153789162	0.2
+	"North Dakota"	"38"	"Exposure to excessive natural cold (hypothermia)"	"X31"	120	11394034	1.1
+	"Ohio"	"39"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	155	195264288	0.1
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	555	195264288	0.3
+	"Oklahoma"	"40"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	209	62035326	0.3
+	"Oklahoma"	"40"	"Exposure to excessive natural cold (hypothermia)"	"X31"	307	62035326	0.5
+	"Oregon"	"41"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	45	63028957	0.1
+	"Oregon"	"41"	"Exposure to excessive natural cold (hypothermia)"	"X31"	290	63028957	0.5
+	"Pennsylvania"	"42"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	190	213336433	0.1
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	853	213336433	0.4
+	"Rhode Island"	"44"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	13	17971898	Unreliable
+	"Rhode Island"	"44"	"Exposure to excessive natural cold (hypothermia)"	"X31"	78	17971898	0.4
+	"South Carolina"	"45"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	133	75243461	0.2
+	"South Carolina"	"45"	"Exposure to excessive natural cold (hypothermia)"	"X31"	234	75243461	0.3
+	"South Dakota"	"46"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	22	13541850	0.2
+	"South Dakota"	"46"	"Exposure to excessive natural cold (hypothermia)"	"X31"	156	13541850	1.2
+	"Tennessee"	"47"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	174	104293627	0.2
+	"Tennessee"	"47"	"Exposure to excessive natural cold (hypothermia)"	"X31"	281	104293627	0.3
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	837	405679137	0.2
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	466	405679137	0.1
+	"Utah"	"49"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	24	44050407	0.1
+	"Utah"	"49"	"Exposure to excessive natural cold (hypothermia)"	"X31"	196	44050407	0.4
+	"Vermont"	"50"	"Exposure to excessive natural cold (hypothermia)"	"X31"	57	10552926	0.5
+	"Virginia"	"51"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	140	131420921	0.1
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	458	131420921	0.3
+	"Washington"	"53"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	73	110031695	0.1
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	465	110031695	0.4
+	"West Virginia"	"54"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	14	31138841	Unreliable
+	"West Virginia"	"54"	"Exposure to excessive natural cold (hypothermia)"	"X31"	215	31138841	0.7
+	"Wisconsin"	"55"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	102	94983188	0.1
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	578	94983188	0.6
+	"Wyoming"	"56"	"Exposure to excessive natural cold (hypothermia)"	"X31"	110	9131503	1.2

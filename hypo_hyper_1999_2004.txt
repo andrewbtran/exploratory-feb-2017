@@ -1,0 +1,239 @@
+"Notes"	"State"	"State Code"	"Multiple Cause of death"	"Multiple Cause of death Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	11	4430141	Unreliable
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	17	4430141	Unreliable
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	16	4447100	Unreliable
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	16	4467634	Unreliable
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	10	4480089	Unreliable
+	"Alabama"	"01"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	14	4530729	Unreliable
+	"Alaska"	"02"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	13	624779	Unreliable
+	"Alaska"	"02"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	13	626932	Unreliable
+	"Alaska"	"02"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	10	633714	Unreliable
+	"Alaska"	"02"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	20	642337	3.1
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	25	5023823	0.5
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	28	5130632	0.5
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	25	5273477	0.5
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	42	5396255	0.8
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	47	5510364	0.9
+	"Arizona"	"04"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2004"	"2004"	38	5652404	0.7
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	18	5130632	Unreliable
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	23	5273477	0.4
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	18	5396255	Unreliable
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	22	5510364	0.4
+	"Arizona"	"04"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	19	5652404	Unreliable
+	"Arkansas"	"05"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	20	2651860	0.8
+	"Arkansas"	"05"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	10	2673400	Unreliable
+	"Arkansas"	"05"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	10	2673400	Unreliable
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	22	33499204	0.1
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	40	33871648	0.1
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	23	34479458	0.1
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	30	34871843	0.1
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	31	35253159	0.1
+	"California"	"06"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2004"	"2004"	32	35574576	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	32	33499204	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	17	33871648	Unreliable
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	29	34479458	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	31	34871843	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	42	35253159	0.1
+	"California"	"06"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	48	35574576	0.1
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	10	4226018	Unreliable
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	16	4301261	Unreliable
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	15	4425687	Unreliable
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	19	4490406	Unreliable
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	14	4528732	Unreliable
+	"Colorado"	"08"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	23	4575013	0.5
+	"Connecticut"	"09"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	10	3386401	Unreliable
+	"Connecticut"	"09"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	17	3484336	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	10	15759421	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	18	16356966	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	14	16689370	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	18	17004085	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2004"	"2004"	23	17415318	0.1
+	"Florida"	"12"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	10	15759421	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	18	15982378	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	10	16689370	Unreliable
+	"Florida"	"12"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	10	17004085	Unreliable
+	"Georgia"	"13"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	26	8045965	0.3
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	11	8045965	Unreliable
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	24	8186453	0.3
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	15	8377038	Unreliable
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	13	8508256	Unreliable
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	12	8622793	Unreliable
+	"Georgia"	"13"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	11	8769252	Unreliable
+	"Illinois"	"17"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	74	12359020	0.6
+	"Illinois"	"17"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	11	12419293	Unreliable
+	"Illinois"	"17"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	19	12488445	Unreliable
+	"Illinois"	"17"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	22	12525556	0.2
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	31	12359020	0.3
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	40	12419293	0.3
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	24	12488445	0.2
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	46	12525556	0.4
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	27	12556006	0.2
+	"Illinois"	"17"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	46	12589773	0.4
+	"Indiana"	"18"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	15	6044969	Unreliable
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	17	6044969	Unreliable
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	24	6080485	0.4
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	13	6127760	Unreliable
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	25	6155967	0.4
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	17	6196638	Unreliable
+	"Indiana"	"18"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	20	6233007	0.3
+	"Iowa"	"19"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	12	2917634	Unreliable
+	"Iowa"	"19"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	12	2926324	Unreliable
+	"Iowa"	"19"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	10	2941999	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	10	4018053	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	18	4041769	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	14	4068132	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	13	4089875	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	16	4117170	Unreliable
+	"Kentucky"	"21"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	11	4146101	Unreliable
+	"Louisiana"	"22"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	20	4460811	0.4
+	"Louisiana"	"22"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	21	4468976	0.5
+	"Louisiana"	"22"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	10	4468976	Unreliable
+	"Louisiana"	"22"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	13	4477875	Unreliable
+	"Louisiana"	"22"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	11	4497267	Unreliable
+	"Maryland"	"24"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	26	5440389	0.5
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	18	5254509	Unreliable
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	13	5374691	Unreliable
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	14	5440389	Unreliable
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	20	5496269	0.4
+	"Maryland"	"24"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	26	5546935	0.5
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	19	6317345	Unreliable
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	27	6349097	0.4
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	26	6397634	0.4
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	16	6417206	Unreliable
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	18	6422565	Unreliable
+	"Massachusetts"	"25"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	14	6412281	Unreliable
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	27	9897116	0.3
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	29	9938444	0.3
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	30	9991120	0.3
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	52	10015710	0.5
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	49	10041152	0.5
+	"Michigan"	"26"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	49	10055315	0.5
+	"Minnesota"	"27"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	13	4982796	Unreliable
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	13	4873481	Unreliable
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	20	4919479	0.4
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	19	4982796	Unreliable
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	29	5018935	0.6
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	24	5053572	0.5
+	"Minnesota"	"27"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	28	5087713	0.6
+	"Mississippi"	"28"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	11	2828408	Unreliable
+	"Mississippi"	"28"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	15	2844658	Unreliable
+	"Mississippi"	"28"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	14	2844658	Unreliable
+	"Mississippi"	"28"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	11	2852994	Unreliable
+	"Mississippi"	"28"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	11	2868312	Unreliable
+	"Mississippi"	"28"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	14	2889010	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	42	5561948	0.8
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	10	5595211	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	27	5641142	0.5
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	19	5674825	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	13	5709403	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	25	5595211	0.4
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	11	5641142	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	17	5674825	Unreliable
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	23	5709403	0.4
+	"Missouri"	"29"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	15	5747741	Unreliable
+	"Montana"	"30"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	12	902195	Unreliable
+	"Montana"	"30"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	13	906961	Unreliable
+	"Montana"	"30"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	13	919630	Unreliable
+	"Montana"	"30"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	12	930009	Unreliable
+	"Nebraska"	"31"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	10	1711263	Unreliable
+	"Nevada"	"32"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	11	2098399	Unreliable
+	"Nevada"	"32"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	11	2173791	Unreliable
+	"New Jersey"	"34"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	13	8359592	Unreliable
+	"New Jersey"	"34"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	14	8552643	Unreliable
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	34	8359592	0.4
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	22	8414350	0.3
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	16	8492671	Unreliable
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	20	8552643	0.2
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	26	8601402	0.3
+	"New Jersey"	"34"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	16	8634561	Unreliable
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	15	1808082	Unreliable
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	25	1819046	1.4
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	20	1831690	1.1
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	16	1855309	Unreliable
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	15	1877574	Unreliable
+	"New Mexico"	"35"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	20	1903808	1.1
+	"New York"	"36"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	37	18882725	0.2
+	"New York"	"36"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	13	19082838	Unreliable
+	"New York"	"36"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	11	19137800	Unreliable
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	36	18882725	0.2
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	33	18976457	0.2
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	27	19082838	0.1
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	30	19137800	0.2
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	42	19175939	0.2
+	"New York"	"36"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	40	19171567	0.2
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	12	7949361	Unreliable
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	30	8049313	0.4
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	17	8210122	Unreliable
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	34	8326201	0.4
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	17	8422501	Unreliable
+	"North Carolina"	"37"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	13	8553152	Unreliable
+	"Ohio"	"39"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	29	11335454	0.3
+	"Ohio"	"39"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	13	11407889	Unreliable
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	22	11335454	0.2
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	27	11353140	0.2
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	18	11387404	Unreliable
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	19	11407889	Unreliable
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	23	11434788	0.2
+	"Ohio"	"39"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	33	11452251	0.3
+	"Oklahoma"	"40"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	19	3437147	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	13	3450654	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	13	3467100	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	10	3504892	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	10	3437147	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	15	3450654	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	19	3504892	Unreliable
+	"Oklahoma"	"40"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	16	3525233	Unreliable
+	"Oregon"	"41"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	11	3393941	Unreliable
+	"Oregon"	"41"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	10	3421399	Unreliable
+	"Oregon"	"41"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	15	3513424	Unreliable
+	"Oregon"	"41"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	14	3569463	Unreliable
+	"Pennsylvania"	"42"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	29	12263805	0.2
+	"Pennsylvania"	"42"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	18	12331031	Unreliable
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	40	12263805	0.3
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	50	12281054	0.4
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	31	12298970	0.3
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	54	12331031	0.4
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	60	12374658	0.5
+	"Pennsylvania"	"42"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	48	12410722	0.4
+	"South Carolina"	"45"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	26	3974682	0.7
+	"South Carolina"	"45"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	12	3974682	Unreliable
+	"South Carolina"	"45"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	23	4012012	0.6
+	"South Carolina"	"45"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	15	4107795	Unreliable
+	"South Carolina"	"45"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	13	4210921	Unreliable
+	"Tennessee"	"47"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	22	5638706	0.4
+	"Tennessee"	"47"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	10	5689283	Unreliable
+	"Tennessee"	"47"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	17	5689283	Unreliable
+	"Tennessee"	"47"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	12	5750789	Unreliable
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	42	20558220	0.2
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2000"	"2000"	61	20851820	0.3
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	27	21319622	0.1
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2002"	"2002"	40	21690325	0.2
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2003"	"2003"	46	22030931	0.2
+	"Texas"	"48"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2004"	"2004"	45	22394023	0.2
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	21	20558220	0.1
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	26	20851820	0.1
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	22	21319622	0.1
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	29	21690325	0.1
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	21	22030931	0.1
+	"Texas"	"48"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	21	22394023	0.1
+	"Utah"	"49"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	10	2324815	Unreliable
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	25	7000174	0.4
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	17	7078515	Unreliable
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	20	7198362	0.3
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	23	7286873	0.3
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	26	7366977	0.4
+	"Virginia"	"51"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	23	7475575	0.3
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	10	5894121	Unreliable
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	19	5985722	Unreliable
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	22	6052349	0.4
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	11	6104115	Unreliable
+	"Washington"	"53"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	21	6178645	0.3
+	"West Virginia"	"54"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	14	1812295	Unreliable
+	"Wisconsin"	"55"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"1999"	"1999"	12	5332666	Unreliable
+	"Wisconsin"	"55"	"Exposure to excessive natural heat (hyperthermia)"	"X30"	"2001"	"2001"	12	5406835	Unreliable
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"1999"	"1999"	28	5332666	0.5
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2000"	"2000"	23	5363675	0.4
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2001"	"2001"	21	5406835	0.4
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2002"	"2002"	17	5445162	Unreliable
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2003"	"2003"	14	5479203	Unreliable
+	"Wisconsin"	"55"	"Exposure to excessive natural cold (hypothermia)"	"X31"	"2004"	"2004"	27	5514026	0.5
